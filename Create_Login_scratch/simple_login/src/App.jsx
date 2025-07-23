@@ -9,11 +9,9 @@ function App() {
 
   return (
     <>
-      <div>
-        <div>
-          <p>Welcome Shuvkant</p>
-          <Login />
-        </div>
+
+      <div className='border border-teal-50 rounded-2xl p-4'>
+        <Login />
       </div>
     </>
   )
