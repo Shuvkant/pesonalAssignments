@@ -11,3 +11,15 @@ pm2 start "serve" --name login
 pm2 save
 pm2 startup
 ```
+
+## 2. Look for old PM2 process files
+
+PM2 keeps process files here:
+
+```bash
+ls ~/.pm2/dump.pm2
+```
+### If dump.pm2 exists, you can restore it:
+```
+pm2 resurrect
+```
